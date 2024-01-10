@@ -782,6 +782,7 @@
         conditions:
           - !type:ReagentThreshold
             max: 0.1
+<<<<<<< HEAD
 
 - type: reagent
   id: Cortexene
@@ -816,10 +817,9 @@
         - !type:ReagentThreshold
           reagent: Saprodipine # wildly incompatible with antipsychotic medications.
           min: 5
-      # SECTOR UMBRA: Removed because this does not resolve.
-      # - !type:AdjustReagent
-      #   reagent: Saprodipine # purges Saprodipine so paralysis isn't too long
-      #   amount: -0.2
+      - !type:AdjustReagent
+        reagent: Saprodipine # purges Saprodipine so paralysis isn't too long
+        amount: -0.2
       - !type:Drunk # OD causes drunkeness
         conditions:
           - !type:ReagentThreshold
