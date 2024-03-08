@@ -863,6 +863,7 @@ public sealed partial class ShuttleSystem
                 {
                     // UMBRA CD: FTL Gibbing removed.
                     continue;
+                }
 
                 QueueDel(ent);
             }
