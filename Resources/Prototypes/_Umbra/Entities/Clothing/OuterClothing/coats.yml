@@ -4,7 +4,7 @@
   id: PersonalItemClothingOuterCoatMoonlitHoS
   name: moonlit coat
   description: An elegant coat tailored for Agent Aur'sai.
-  suffix: Personal Item, HoS
+  suffix: PersonalItem, HoS
   components:
   - type: Sprite
     sprite: _Umbra/Clothing/OuterClothing/Coats/coatmoonlit.rsi
