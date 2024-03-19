@@ -3,6 +3,7 @@
   id: ClothingBeltMoonlitHolster
   name: moonlit shoulder holster
   description: A robust holster tailored to Aur'sai.
+  suffix: PersonalItem, HoS
   components:
   - type: Sprite
     sprite: _Umbra/Clothing/Belt/moonlit.rsi
