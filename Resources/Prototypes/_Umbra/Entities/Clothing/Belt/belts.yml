@@ -1,4 +1,5 @@
-﻿- type: entity
+﻿# Player: Aexxie - Character: Aur'sai
+- type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltMoonlitHolster
   name: moonlit shoulder holster
