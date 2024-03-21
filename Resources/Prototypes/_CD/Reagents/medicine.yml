@@ -782,7 +782,6 @@
         conditions:
           - !type:ReagentThreshold
             max: 0.1
-<<<<<<< HEAD
 
 - type: reagent
   id: Cortexene
