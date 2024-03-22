@@ -1,0 +1,24 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckArtiNecklace
+  name: Deeja's Artifact Necklace
+  suffix: PersonalItem
+  description: An extremely well crafted, handmade necklace. It has a note on it - "A gift for the most talented scientist and my best friend."
+  components:
+  - type: Sprite
+    sprite: _Umbra/Clothing/Neck/arti-necklace.rsi
+  - type: Clothing
+    sprite: _Umbra/Clothing/Neck/arti-necklace.rsi
+  - type: Artifact
+    currentNodeId: 271828
+    pointsPerNode: 0 #Instead of 6500 points. Purely Cosmetic
+    nodeTree:
+    - nodeData: {} 
+      effect: EffectGoodFeeling #So well crafted that when you look at it you feel happiness
+      triggered: False
+      trigger: TriggerExamine
+      discovered: True
+      edges:
+      - 271828
+      depth: 0
+      id: 271828
