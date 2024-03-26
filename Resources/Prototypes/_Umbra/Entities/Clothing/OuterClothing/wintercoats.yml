@@ -3,23 +3,10 @@
   parent: ClothingOuterWinterCoat
   id: FrostCoat
   name: Frosty Winter Coat
-  description: A delicate, precisely made winter coat with a small label that reads "Frostbite-Drago", it seems to be covered in a light layer of frost.
+  description: A delicate, precisely made winter coat with a small label that says "Frostbite-Drago", it seems to be covered in a light layer of frost.
   suffix: PersonalItem
   components:
   - type: Sprite
     sprite: _Umbra/Clothing/OuterClothing/WinterCoats/frostcoat.rsi
   - type: Clothing
     sprite: _Umbra/Clothing/OuterClothing/WinterCoats/frostcoat.rsi
-
- # Player: OverwatchVoice - Character: Yarna-Crimson
-- type: entity
-  parent: ClothingOuterWinterCoat
-  id: YarnaCoat
-  name: Elegant Security Winter Coat
-  description: A elegant winter coat made with high-quality fibers, featuring two golden shoulder guards, there is a small label that reads "Yarna-Crimson".
-  suffix: PersonalItem
-  components:
-  - type: Sprite
-    sprite: _Umbra/Clothing/OuterClothing/WinterCoats/yarnacoat.rsi
-  - type: Clothing
-    sprite: _Umbra/Clothing/OuterClothing/WinterCoats/yarnacoat.rsi
